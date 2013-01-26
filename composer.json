@@ -1,15 +1,20 @@
 {
-    "name": "andho/grotto",
+    "name": "andho/php-grotto",
+    "type": "library",
     "description": "A standalone, extendable User authentication library. Provides and extension point for storage.",
+    "keywords": ["auth", "authenticate"],
+    "homepage": "http://github.com/andho/php-grotto",
     "authors": [
         {
             "name": "Amjad Mohamed",
-            "email": "andhos@gmail.com"
+            "email": "andhos@gmail.com",
+            "homepage": "http://andho.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-
+        "php": ">=5.3.0"
     },
     "require-dev": {
         "phpspec/phpspec2": "@dev"
