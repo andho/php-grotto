@@ -1,0 +1,25 @@
+{
+    "name": "andho/grotto",
+    "description": "A standalone, extendable User authentication library. Provides and extension point for storage.",
+    "authors": [
+        {
+            "name": "Amjad Mohamed",
+            "email": "andhos@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "require-dev": {
+        "phpspec/phpspec2": "@dev"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "Andho": "src/"
+        }
+    }
+}

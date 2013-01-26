@@ -1,0 +1,3 @@
+bin/phpspec
+vendor
+composer.lock
